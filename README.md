@@ -37,13 +37,32 @@ apt install picom rofi playerctl lm-sensors pulseaudio maim feh
 - [Fira Sans](https://fonts.google.com/specimen/Fira+Sans) - Default font
 - [Scriptina](https://www.dafont.com/scriptina.font) - Used in the lock screen
 
-### AwesomeWM config files
+### Config files
+#### Download config files
 ```bash
 git clone https://github.com/sadmice/dotfiles.git
 cd dotfiles
-mv ~/.config/awesome ~/.config/awesome-backup # Backup current configuration
-cp -r config/awesome ~/.config/awesome
 ```
+
+#### Install config files
+- AwesomeWM
+  ```bash
+  mv ~/.config/awesome ~/.config/awesome-backup # Backup current configuration
+  cp -r ./.config/awesome ~/.config/awesome
+  ```
+
+- Xresources
+  ```bash
+  mv ~/.Xresources ~/.Xresources-backup # Backup current configuration
+  cp ./.Xresources ~/.Xresources
+  xrdb -merge ~/.Xresources
+  ```
+
+- Picom
+  ```bash
+  mv ~/.config/picom ~/.config/picom-backup # Backup current configuration
+  cp -r ./.config/picom ~/.config/picom
+  ```
 
 ## 🖼️ Corresponding themes
 You can find corresponding themes for different applications on the [Catpuccin github](https://github.com/catppuccin/catppuccin#-ports-and-more)
