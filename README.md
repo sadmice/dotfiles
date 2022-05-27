@@ -65,7 +65,7 @@ cd dotfiles
   ```
 
 ## 🖼️ Corresponding themes
-You can find corresponding themes for different applications on the [Catpuccin github](https://github.com/catppuccin/catppuccin#-ports-and-more)
+You can find corresponding themes for different applications on the [Catppuccin github](https://github.com/catppuccin/catppuccin#-ports-and-more)
 
 ## 💝 Credits
 [Elenapan's dotfiles](https://github.com/elenapan/dotfiles)
