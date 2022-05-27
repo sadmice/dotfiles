@@ -2,6 +2,9 @@
   🐭 AwesomeWM config files 🐭
 </h1>
 
+![desk](https://user-images.githubusercontent.com/23323305/170617063-2a0b68b1-154b-49eb-a171-c164d385207e.png)
+![dash](https://user-images.githubusercontent.com/23323305/170617068-3340a90c-daac-491c-89c4-14ca5064eb88.png)
+
 ## 🔧 Installation
 ### AwesomeWM
 You need the [git version of AwesomeWM](https://github.com/awesomeWM/awesome/)
@@ -41,6 +44,9 @@ cd dotfiles
 mv ~/.config/awesome ~/.config/awesome-backup # Backup current configuration
 cp -r config/awesome ~/.config/awesome
 ```
+
+## 🖼️ Corresponding themes
+You can find corresponding themes for different applications on the [Catpuccin github](https://github.com/catppuccin/catppuccin#-ports-and-more)
 
 ## 💝 Credits
 [Elenapan's dotfiles](https://github.com/elenapan/dotfiles)
